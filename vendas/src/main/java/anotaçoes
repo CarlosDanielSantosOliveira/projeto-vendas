@@ -1,0 +1,13 @@
+Container IOC:
+I = Inversion
+O = Of
+C = Control
+
+O que siginifica esse container de inversão de controle: Significa que delegamos a ele algumas tarefas que
+ele deve configurar, como: configurações, abertura e fechamento das conexões com o banco de dados etc..
+
+@Configuration: são as classes de configuração e dentro dessa classe configuration, nos temos os beans = @Bean
+@Component: Quando uso o @Component, quer dizer que minha classe possui métodos e funções que são uteis
+para a minha aplicação, notations usadas: @Controller, @Repository, @Service
+
+
