@@ -1,12 +1,11 @@
 package cursoAngularSpring.vendas.data.repository;
 
 import cursoAngularSpring.vendas.model.entities.Cliente;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class ClienteRepository {
+public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 
-    public void persistir(Cliente cliente) {
-        //Acessa a base e salva o cliente
-    }
+
 }

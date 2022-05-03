@@ -2,13 +2,13 @@ package cursoAngularSpring.vendas;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
 
-@Configuration
+/*@Configuration
 @Profile("development") //Dessa forma a classe so vai funcionar no ambiente de desenvolvimento
+*/
+@Development //Configurantion para esta classe
 public class MinhaConfiguration {
-//Essa classe serve para configurar algo
+    //Essa classe serve para configurar algo
 
     @Bean
     public CommandLineRunner executar() {
